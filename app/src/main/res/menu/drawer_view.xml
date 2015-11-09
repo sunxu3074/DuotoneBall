@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Home"
+            ></item>
+        <item
+            android:id="@+id/nav_message"
+            android:checkable="true"
+            android:icon="@drawable/ic_event"
+            android:title="Message"
+            ></item>
+        <item
+            android:id="@+id/nav_friends"
+            android:checkable="true"
+            android:icon="@drawable/ic_headset"
+            android:title="Friedns"
+            ></item>
+        <item
+            android:id="@+id/nav_discussion"
+            android:checkable="true"
+            android:icon="@drawable/ic_forum"
+            android:title="Discussion"
+            ></item>
+    </group>
+
+    <item
+        android:title="Sub items">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/ic_dashboard"
+                android:title="Sub item 1"
+                ></item>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/ic_forum"
+                android:title="Sub item 2"
+                ></item>
+        </menu>
+    </item>
+</menu>
