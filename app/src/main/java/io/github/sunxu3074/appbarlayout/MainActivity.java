@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle("ActionBarApp");
+        collapsingToolbar.setTitle(getResources().getString(R.string.app_name));
 
         final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
         Glide.with(this).load(R.drawable.cheese_3).centerCrop().into(imageView);
